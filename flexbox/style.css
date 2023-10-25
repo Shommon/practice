@@ -2,12 +2,12 @@ Body {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#2E3440;
+    background-color: #3B4252;
 }
 
 .menu-container{
     color:#ECEFF4;
-    background-color: #3B4252;
+    background-color: #2E3440;
     padding: 20px 0px;
     justify-content: center;
     
@@ -19,7 +19,7 @@ Body {
 .menu{
     /* border: 5px solid #434C5E */
       /* For debugging */
-    width: 700px;
+    width: 900px;
     display:flex;
     justify-content: space-between;
     padding:5px 5px;
@@ -41,4 +41,22 @@ Body {
 
 .login{
     margin-left:20px;
+}
+
+.header-container{
+    font-family: Lato;
+    color: #ECEFF4;
+    background-color: transparent;
+    justify-content: center;
+
+    display: flex;
+}
+
+.header{
+    width: 900px;
+    height:300px;
+    justify-content: space-between;
+    align-items: center; /* vertically aligns at the center */
+    
+    display: flex;
 }
