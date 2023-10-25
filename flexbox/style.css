@@ -1,0 +1,22 @@
+* {
+    background:#2E3440;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-box{
+    background-color: #4c566a;
+    border: 10px solid #434C5E;
+
+    text-align: center;
+    font-size: 30px;
+    font-family:BlinkMacSystemFont;
+    font-weight: bold;
+    
+    height:auto;
+    padding: 50px 0;
+    margin: 10px;
+    flex:1;
+}
