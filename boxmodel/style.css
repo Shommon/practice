@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin: 0;
+    font-size: 50px;
+    box-sizing: border-box;
+}
+
+.box-one{
+    background-color: #EB7575;
+    height: 5em;
+    width: 5em;
+    padding: 0 auto;
+
+    border: 20px solid #9B51E0;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+}
+
+.box-two{
+    background-color: #2D9CDB;
+    height: 160px;
+    width: 160px;
+    padding: 10px;
+    border: 20px solid #27AE60;
+    margin: 100px;
+}
+
+/* Spacing two elements away from each other should be done with padding
+    Having them next to each other does not add their margins, spacing is
+    Determined by the larger margin */
+
+/* To space elements from itself, you should use padding*/
+
+
+
+/* .box {
+    margin: <margin-top> || <margin-right> || <margin-bottom> || <margin-left>
+}</margin-left></margin-bottom></margin-right></margin-top> */
