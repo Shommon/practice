@@ -113,3 +113,16 @@ body {
     border:1px solid #ECEFF4;
     height: 300px;
 }
+
+.footer-item{
+    background-color:#3B4252;
+    border: 1px solid #ECEFF4;
+    height:200px;
+    flex: 1;     /* Can represent weight of flex */
+}
+
+.footer-three,
+.footer-one{
+    width:300px;
+    flex:initial;
+}
