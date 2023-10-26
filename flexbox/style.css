@@ -1,4 +1,4 @@
-Body {
+body {
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -34,8 +34,6 @@ Body {
 .links{
     /* border: 1px solid white;     Just for View */
     justify-content: flex-end;
-    padding:0 5px;
-
     display:flex;
 }
 
@@ -53,6 +51,8 @@ Body {
 }
 
 .header{
+    font-family: Lato;
+    color:#ECEFF4;
     width: 900px;
     height:200px;
     justify-content: space-between;
