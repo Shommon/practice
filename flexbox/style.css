@@ -2,7 +2,7 @@ body {
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #3B4252;
+    background-color: #6b717e;
 }
 
 .menu-container{
@@ -44,7 +44,7 @@ body {
 .header-container{
     font-family: Lato;
     color: #ECEFF4;
-    background-color: transparent;
+    background-color: #3B4252;
     justify-content: center;
 
     display: flex;
@@ -54,7 +54,7 @@ body {
     font-family: Lato;
     color:#ECEFF4;
     width: 900px;
-    height:200px;
+    height:300px;
     justify-content: space-between;
     align-items: center; /* vertically aligns at the center */
     
@@ -73,7 +73,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    /* flex-direction: row; */
     align-items: center;
     
 }
@@ -81,5 +81,35 @@ body {
 .photo-grid-item{
     /* border: 1px solid white; */
     width: 300px;
+    height: 300px;
+}
+/* Testing Flex Order */
+/* 
+.first-item{
+    order:5;
+}
+.second-item{
+    order:2;
+}
+.third-item{
+    order:4;
+}
+.fourth-item{
+    order:3;
+}
+.last-item{
+    order:2;
+} */
+
+.subscribe,
+.social{
+    align-self:flex-end;
+    margin-bottom: 20px;
+}
+
+/* Experimenting with Flexible Items */
+.footer{
+    display:flex;
+    border:1px solid #ECEFF4;
     height: 300px;
 }
