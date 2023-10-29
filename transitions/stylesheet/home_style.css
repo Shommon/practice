@@ -6,6 +6,8 @@ body{
     gap: 50px;
 }
 
+
+
 .header{
     border: 1px solid black;
     display: flex;
@@ -53,12 +55,14 @@ body{
 .gallery-container{
     display: flex;
     justify-content: center;
+    
 }
 
 .gallery-links{
     width: 410px;
     height: 410px;
     margin: 0;
+    
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
@@ -127,3 +131,4 @@ body{
     background-blend-mode:overlay;
     color: aliceblue;
 }
+
