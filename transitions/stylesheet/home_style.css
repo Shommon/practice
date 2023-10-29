@@ -1,12 +1,19 @@
 body{
     font-family: "Cormorant Garamond";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 
 .header{
+    border: 1px solid black;
     display: flex;
     justify-content: space-between;
+    align-content: center;
     align-items: center;
-    margin: 50px 10px;
+    margin: 50px 200px;
+    width:300px
 }
 
 .logo{
@@ -21,6 +28,8 @@ body{
     overflow: hidden;  
     
     display: flex;
+    flex-shrink: 0;
+
     justify-content: center;
     align-items: center;
 }
@@ -28,6 +37,7 @@ body{
 .logo img{
     max-width: 100%;
     transform: rotate(-45deg) scale(1.1) ;
+    flex-shrink: 0;
 }
 
 .header ul{
@@ -49,7 +59,7 @@ body{
     width: 410px;
     height: 410px;
     margin: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +68,7 @@ body{
 }
 
 .gallery-links .content{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 200px;
     height: 200px;
 
@@ -66,16 +76,56 @@ body{
     font-size: 30px;
     color: black;
     
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    padding: -2px;
+    border-radius: 5px;
 }
 
+
+/* Gallery Images */
 #Potions{
     background-image: url("../images/alchemistfire.jpeg");
     background-size: 200px 287px;
     background-color: #969494ee;
     background-blend-mode:overlay;
-}   
+} 
+#Home{
+    background-image: url("../images/home.png");
+    background-size: 410px;
+    background-position: -40px;
+
+    background-color: #acaaaaee;
+    background-blend-mode:overlay;
+}
+#Shop{
+    background-image: url("../images/shop.jpg");
+    background-size: 600px;
+    background-position: -100px;
+
+    background-color: #a09d9dee;
+    background-blend-mode:overlay;
+}
+#About{
+    background-image: url("../images/about.jpg");
+    background-size: 200px;
+
+    background-color: #8a8a8aee;
+    background-blend-mode:overlay;
+}
+
+/* Gallery Hover Event */
+#Potions:hover,
+#Home:hover,
+#About:hover,
+#Shop:hover{
+    transform: scale(1.1);
+    transition: 300ms ease;
+    background-color: #5f5f5fee;
+    background-blend-mode:overlay;
+    color: aliceblue;
+}
+
+
