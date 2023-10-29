@@ -1,4 +1,36 @@
+
+
 body{
     background-color: #202124;
 }   
 
+form{
+    display: flex;
+    align-items: flex-end;    /* Helps align forms to the bottom */
+
+    font-family: Lato;
+    color: white;
+    background-color: #303134;
+    gap: 15px;
+    flex-wrap:wrap;
+    padding: 15px;
+    
+    /* border: 1px solid white; */
+    border-radius: 8px;
+} 
+
+
+.name{
+    flex-grow:0;
+    flex-basis:120px;
+}
+
+.email{
+    flex-grow:0;
+    flex-basis: 170px;
+}
+
+.button{
+    flex-grow:0;
+    flex-basis:70px;
+}
