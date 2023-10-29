@@ -17,7 +17,7 @@ body {
 
 
 .menu{
-    /* border: 5px solid #434C5E */
+    /* border: 1px solid white; */
       /* For debugging */
     width: 900px;
     display:flex;
@@ -31,15 +31,22 @@ body {
 
 }
 
-.links{
+/* .links{
     /* border: 1px solid white;     Just for View */
-    justify-content: flex-end;
-    display:flex;
+    /* justify-content: flex-end; */
+    /* display:flex; */
+/* } */
+
+.signup{
+    /* border: 1px solid white; */
+    margin-left:auto;
+    /* margin-right:auto; */
 }
 
 .login{
     margin-left:20px;
 }
+
 
 .header-container{
     font-family: Lato;
@@ -111,7 +118,8 @@ body {
 .footer{
     display:flex;
     border:1px solid #ECEFF4;
-    height: 300px;
+    height: 100px;
+    margin-bottom: 0px;
 }
 
 .footer-item{
@@ -125,4 +133,6 @@ body {
 .footer-one{
     width:300px;
     flex:initial;
+    background-color: #5a6173;
+;
 }
