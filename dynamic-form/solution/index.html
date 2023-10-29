@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Tutorial: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+        body{
+            background-color: #0E141B;
+        }
+
+        form{
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 20px;
+            
+            color:white;
+            background-color: #151F28;
+            border: 1px solid #E6E6E6;
+            border-radius: 8px;
+        }
+
+        .name{
+            flex-grow: 0;
+            flex-basis: 120px;
+        }
+
+        .email{
+            flex-grow:0;
+            flex-basis:170px;
+        }
+
+        input{
+           background-color: transparent;
+           border: 1px solid #E6E6E6;
+           border-radius: 8px;
+           color: #E6E6E6;
+           font-weight: 800;
+        }
+        
+        button{
+            flex-grow:0;
+            flex-basis:70px;
+        }
+    </style>
+
+
+    <form>
+        <label class="name" for="name-field">
+            Name:
+            <input id="name-field" />
+        </label>
+        <label class="email" for="email-field">
+            Email:
+            <input id="email-field" type="email" />
+        </label>
+        <button>
+            Submit
+        </button>
+    </form>
+</body>
+</html>
