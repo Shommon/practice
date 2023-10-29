@@ -1,3 +1,4 @@
+/* Header style */
 .header{
     display: flex;
     justify-content: space-between;
@@ -6,7 +7,7 @@
 }
 
 .logo{
-    border: 3px solid rgb(68, 71, 119);
+    border: 3px solid rgb(37, 42, 107);
     background-color: rgb(87, 87, 145);
     display: block;
     margin:0 auto;
@@ -29,9 +30,10 @@
 .header ul{
     display:flex;
     justify-content: space-between;
-    gap: 8px;
+    gap: 20px;
     list-style-type: none;
     padding:5px 20px
 }
+
 
 

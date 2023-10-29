@@ -1,0 +1,81 @@
+body{
+    font-family: "Cormorant Garamond";
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 10px;
+}
+
+.logo{
+    border: 3px solid rgb(68, 71, 119);
+    background-color: rgb(87, 87, 145);
+    display: block;
+    margin:0 auto;
+    margin-top: 0px;
+    width:100px;
+    height:100px;
+    transform: rotate(45deg);
+    overflow: hidden;  
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.1) ;
+}
+
+.header ul{
+    display:flex;
+    justify-content: space-between;
+    gap: 25px;
+    list-style-type: none;
+    padding:5px 20px
+}
+
+
+/* Body style */
+.gallery-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-links{
+    width: 410px;
+    height: 410px;
+    margin: 0;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; /*remove gap from flexwrap*/
+    flex-wrap: wrap;
+}
+
+.gallery-links .content{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#Potions{
+    background-image: url("../images/alchemistfire.jpeg");
+    background-size: 200px 287px;
+    background-color: #969494ee;
+    background-blend-mode:overlay;
+}   
