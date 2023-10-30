@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transitions Practice</title>
     <link rel="stylesheet" href="../stylesheet/potions_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,15 +29,19 @@
             </ul>
         </div>
     </div>
-    
 
-    <div class="gallery">
-        <img src="../images/acidvial.jpeg" alt="an acid vial">
-        <img src="../images/alchemistfire.jpeg" alt="an alchemist fire bottle">
-        <img src="../images/antitoxin.jpeg" alt="an antitoxin vial">
-        <img src="../images/holywater.jpeg" alt="a holy water bottle">
+    <div class="label">~ Learn a Recipe! ~</div>
+
+    <div class="potion-gallery-container">
+        <div class="potion-gallery">
+            
+            <div id="acidvial" onclick="window.location.href='./recipes/acidvial.html';"><img src="../images/acidvial.jpeg" alt="an acid vial"></div>
+            <div id="alchemistfire" onclick="window.location.href='./recipes/alchemistfire.html';"><img src="../images/alchemistfire.jpeg" alt="an alchemist fire bottle"></div>
+            <div id="antitoxin"><img src="../images/antitoxin.jpeg" alt="an antitoxin vial"></div>
+            <div id="holywater"><img src="../images/holywater.jpeg" alt="a holy water bottle"></div>
+        </div>
     </div>
-
+    <script src="random.js"></script>
     <div class="footer">
         <div>Fenithir Shinebright LLC 2023</div>
     </div>

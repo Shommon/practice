@@ -17,25 +17,12 @@ body{
     width: 500px;
 
     margin: 50px 10px;
-    padding: 0px 10px;
     border: 1px solid black;
 }
 .header a{
-    /* border: 1px solid black; */
     text-decoration: none;
     color:black;
-    padding: 0px 4px;
 }
-
-.header a:hover{
-    text-decoration: none;
-    color:white;
-    background-color: black;
-    font-size: 20px;
-    border-radius: 1px;
-    transition: 300ms ease;
-}
-
 
 .logo{
     border: 3px solid rgb(37, 42, 107);
@@ -64,45 +51,6 @@ body{
     gap: 20px;
     list-style-type: none;
     padding:5px 20px
-}
-
-
-/* Potion Gallery */
-
-.potion-gallery{
-    display:flex;
-    justify-content: center;
-    /* border: 5px solid pink; */
-    width:1000px;
-    height:auto;
-    gap: 5px;
-
-    margin-bottom: 50px;
-}
-
-.potion-gallery img{
-    height: 400px;
-    width: auto;
-    flex:1;
-    border-radius: 5px;
-
-}
-
-/* Mouse Hover Events */
-
-.potion-gallery #acidvial:hover, 
-        #alchemistfire:hover,
-        #antitoxin:hover,
-        #holywater:hover{
-        transform:scale(1.1) rotate(2.0deg);
-        transition: 300ms ease;
-}
-
-.label{
-    font-size: 20px;
-    color: black;
-    margin-bottom: 20px;
-    margin-top: 0px;
 }
 
 
