@@ -24,15 +24,36 @@ const par2 = document.createElement('p');
 par2.textContent = 'ME TOO!'
 
 
-const btn = document.querySelector('#btn');
-btn.onclick = () => alert('Hello World!');
+// const btn = document.querySelector('#btn');
+// btn.onclick = () => alert('Hello World!');
 
-function alertFunction() {
-    alert("YEAAAAH BABBBYY!")
-}
+// function alertFunction() {
+//     alert("YEAAAAH BABBBYY!")
+// }
 
-const btn2 = document.querySelector('#btn2');
-btn2.addEventListener('click', alertFunction);
+// const btn2 = document.querySelector('#btn2');
+// btn2.addEventListener('click', alertFunction);
+
+// const btn3 = document.querySelector("#event");
+// btn3.addEventListener('click', function(e){
+//     console.log(e);
+//     e.target.style.background = 'yellow'
+// });
+
+
+// Container 2
+const container2 = document.querySelector('#container2')
+const buttons = document.querySelectorAll('button')
+
+console.log(buttons)
+
+buttons.forEach((button => {
+    // console.log(button);
+    button.addEventListener('click', ()=> {
+        alert("I am Button #"+button.id)
+    })
+}))
+
 
 // Children of Content Border
 contentBorder.appendChild(head1);
