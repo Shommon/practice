@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOM example</title>
+  </head>
+  <body>
+    <style>
+        .highlight {
+          color: white;
+          background-color: black;
+          padding: 10px;
+          width: 250px;
+          text-align: center;
+        }
+        .bigboy {
+            color: white;
+            background-color: lightblue;
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .bigboy:hover {
+            transform: scale(1.05);
+            text-align: center;
+            transition: 0.3s ease;
+        }
+      </style>
+      <section>
+        <img src="dinosaur.png" alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+        <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
+        </section>
+        <button id="toggle">Toggle Style</button>
+
+      <script src="script.js" defer></script>
+  </body>
+</html>
