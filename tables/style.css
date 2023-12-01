@@ -14,8 +14,17 @@ body, html {
     width: 100% ;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    /* gap: 20px; */
+}
+.row {
+    width: 500px;
+    /* outline: black dashed 2px; */
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 #dogs-table td, th{
