@@ -9,9 +9,46 @@ body, html {
     width: 100%;
     height: 100%;
 }
+#menu {
+    /* outline: black dashed 1px; */
+    width: 100% ;
 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
 #dogs-table td, th{
     border: black solid 1px;
     padding: 10px;
 }
+
+
+#animals-table td, th{
+    border: black solid 1px;
+    padding: 10px;
+}
+
+#animals-table{
+    width: 500px;
+}
+
+#column_style td, th{
+    border: black solid 1px;
+    padding: 10px 20px;
+}
+/* 
+col {
+    border-left: 4px solid #C1437A;
+} */
+
+#school_table{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#school_table td, th{
+    border:#BEBEBE solid 1px;
+    padding: 10px 20px;
+    /* border-collapse: collapse; */
+}
+
