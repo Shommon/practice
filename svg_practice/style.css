@@ -22,3 +22,9 @@ body, html{
     transform: scale(1.5);
     opacity:0 ;
 }
+
+.svg-circle:hover ~ #rectangle {
+    transition: 1s ease;
+    transform: scale(1.5);
+    opacity:0 ;
+}
