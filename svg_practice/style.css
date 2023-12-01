@@ -1,0 +1,24 @@
+body, html{
+    /* outline: red dashed 10px; */
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* outline: blue dashed 3px; */
+    max-width: 500px;
+    flex: 1;
+}
+
+.svg-circle:hover + .svg-text-group {
+    transition: 1s ease;
+    transform: scale(1.5);
+    opacity:0 ;
+}
