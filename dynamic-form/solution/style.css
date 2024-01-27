@@ -28,3 +28,11 @@ form {
   button {
     height: 2.5rem;
   }
+
+
+#container {
+  outline: white dashed 2px;
+  height: 1000px;
+  width: 1000px;
+  background-color: white;
+}

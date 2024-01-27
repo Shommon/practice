@@ -34,3 +34,31 @@ form{
     flex-grow:0;
     flex-basis:70px;
 }
+
+#container {
+    outline: white dashed 2px;
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    box-sizing: border-box;
+}
+
+.row{
+    /* outline: pink dashed 2px; */
+    flex: 1;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    /* padding: 10px; */
+}
+
+.box {
+    outline: green dashed 2px;
+    flex: 1;
+}

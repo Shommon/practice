@@ -1,0 +1,4 @@
+body {
+    font-size: calc(8px + 1vw);
+    line-height: calc(1em + 0.5vw);
+}
