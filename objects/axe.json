@@ -1,0 +1,7 @@
+{
+    "name": "axe",
+    "description": "an axe forged by the great dwarf Gimli",
+    "damage": "1d6",
+    "attack_bonus": 2,
+    "damage_bonus": 2
+}
